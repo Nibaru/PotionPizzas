@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${version}",
+  "name": "${mod_name}",
+  "description": "Bite into buffs: Potion Pizzas, where pizza and potions come together!",
+  "authors": ["Nibaru"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/potionpizzas",
+    "sources": "https://github.com/Nibaru/PotionPizzas",
+    "issues": "https://github.com/Nibaru/PotionPizzas/issues"
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/${mod_id}/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "games.twinhead.${mod_id}.PotionPizzas"
+    ],
+    "client": [
+      "games.twinhead.${mod_id}.client.PotionPizzasClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

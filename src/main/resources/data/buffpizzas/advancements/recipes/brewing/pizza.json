@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_potion": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:potion"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "potionpizzas:pizza"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_potion"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "potionpizzas:pizza"
+    ]
+  },
+  "sends_telemetry_event": false
+}

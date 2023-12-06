@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer1": "potionpizzas:item/pizza",
+    "layer0": "potionpizzas:item/pizza_overlay"
+  }
+}
