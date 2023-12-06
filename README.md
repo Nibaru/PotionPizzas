@@ -1,4 +1,4 @@
-# Potion Pizzas Mod
+# ![Potion Pizzas Mod](https://i.postimg.cc/RZcCfyX5/Potion-pizzas-title.png)
 
 ## Overview
 This mod adds a new food item to the game: the Potion Pizza. It is crafted with gold ingots and a potion of your choice. When eaten, it will give you the effects of the potion used to craft it. 
