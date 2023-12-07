@@ -23,7 +23,7 @@ public class PizzaRecipe extends SpecialCraftingRecipe {
             return false;
         }
 
-        block3: for (int i = 0; i < inventory.size(); ++i) {
+        for (int i = 0; i < inventory.size(); ++i) {
             ItemStack itemStack = inventory.getStack(i);
             switch (i) {
                 case 1, 3, 5, 7 -> {

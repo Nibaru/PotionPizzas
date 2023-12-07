@@ -56,9 +56,7 @@ public class Util {
 
     public static ItemStack getPizzaWithPotion(Potion... effects) {
         ItemStack stack = new ItemStack(PotionPizzas.PIZZA);
-        for (Potion effect : effects) {
-            PotionUtil.setPotion(stack, effect);
-        }
+        for (Potion effect : effects) {PotionUtil.setPotion(stack, effect);}
         PotionUtil.setCustomPotionEffects(stack, PotionUtil.getCustomPotionEffects(stack));
         return stack;
     }
