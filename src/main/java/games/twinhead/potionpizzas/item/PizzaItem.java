@@ -48,7 +48,7 @@ public class PizzaItem extends Item {
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        PotionUtil.buildTooltip(stack, tooltip, 0.25f, 20f);
+        PotionUtil.buildTooltip(stack, tooltip, 0.25f);
     }
 
     @Override
